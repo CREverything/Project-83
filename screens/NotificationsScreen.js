@@ -77,10 +77,10 @@ export default class NotificationScreen extends Component{
             :(
               <FlatList
                 keyExtractor={this.keyExtractor}
-                data={this.state}
-                data={this.allNotifications}
+                //data={this.state}
+               //data={this.allNotifications}
                 data={this.state.allNotifications}
-                data={allNotifications}
+                //data={allNotifications}
                 renderItem={this.renderItem}
               />
             )
